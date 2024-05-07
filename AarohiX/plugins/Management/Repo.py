@@ -35,7 +35,7 @@ async def start(_, msg):
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/d3e94fa78cb489c1effbd.jpg",
+        photo="https://telegra.ph/file/e576aa8308c49d945f433.jpg",
         caption=start_txt,
         reply_markup=reply_markup,
     )
@@ -59,7 +59,7 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[ʀᴇᴘᴏ](https://telegra.ph/file/d28047520fad932521368.mp4) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/BWF_MUSIC1)
+        text = f"""[ʀᴇᴘᴏ](https://telegra.ph/file/e576aa8308c49d945f433.jpg) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/BWF_MUSIC1)
 | ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs |
 ----------------
 {list_of_users}"""
