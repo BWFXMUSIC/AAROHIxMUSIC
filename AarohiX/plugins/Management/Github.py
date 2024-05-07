@@ -5,7 +5,7 @@ from AarohiX import app as bot
 @bot.on_message(filters.command(["github", "git"]))
 async def github(_, message):
     if len(message.command) != 2:
-        await message.reply_text("/git stkeditz")
+        await message.reply_text("/git @BWF_MUSIC1")
         return
 
     username = message.text.split(None, 1)[1]
