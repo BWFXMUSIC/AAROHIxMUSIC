@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AarohiX import app
-from AarohiX.core.call import Dil
+from  import app
+from .core.call import Dil
 
 welcome = 20
 close = 30
