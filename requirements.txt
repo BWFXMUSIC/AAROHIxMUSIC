@@ -22,7 +22,6 @@ pillow
 psutil
 pycountry
 pydub
-pymongo
 pyfiglet
 py-tgcalls==0.9.7
 pykeyboard
@@ -42,3 +41,13 @@ yt-dlp==2024.4.9
 youtube-search
 youtube-search-python
 wget
+motor
+apscheduler
+psutil
+pymongo
+pyrogram==2.0.106
+requests==2.31.0
+tgcrypto==1.2.5
+asyncio==3.4.3
+python-dotenv==1.0.0
+heroku3
