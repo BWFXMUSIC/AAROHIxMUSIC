@@ -18,7 +18,7 @@ START_TEXT = """<b> 🤖 ᴄᴏᴘʏʀɪɢʜᴛ ᴘʀᴏᴛᴇᴄᴛᴏʀ 🛡�
 
 
 ##---------------------------------------------------------------------------------
-@app.on_message(filters.command("start"))
+@app.on_message(filters.command("L2R"))
 async def start_command_handler(_, msg):
     buttons = [
         [InlineKeyboardButton("", callback_data="vip_back")]
@@ -33,9 +33,9 @@ async def start_command_handler(_, msg):
 
 # Callback Query Handler
 gd_buttons = [
-    [InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/GOD_R4V4N"),
-     InlineKeyboardButton("• ʙᴀᴄᴋ •", callback_data="back_to_start"),
-     InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/Ravan_Lankaa")]
+    [InlineKeyboardButton("", url=f"https://t.me/GOD_R4V4N"),
+     InlineKeyboardButton("", callback_data="back_to_start"),
+     InlineKeyboardButton("", url="https://t.me/Ravan_Lankaa")]
 ]
 
 @app.on_callback_query(filters.regex("vip_back"))
